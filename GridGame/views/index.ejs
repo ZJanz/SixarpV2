@@ -1,0 +1,97 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+
+	    <meta charset="utf-8" />
+	    <meta name="google-signin-scope" content="profile email">
+   		<meta name="google-signin-client_id" content="525100925895-lc61n1ni32r2g4bj5tn37g55jrfre4oa.apps.googleusercontent.com.apps.googleusercontent.com">
+ 
+
+	    <title>Grid Game</title>
+	    <link rel="stylesheet" type="text/css" href="css/home.css">
+	</head>
+	<body>
+
+	<canvas id="myCanvas"></canvas>
+	<p><span id="cords">cords here</span> <span id = woodAmount>0</span>
+		<span id="gridValue"></span>
+		<button id="chop">Chop Wood</button>
+		<button id="wall">Place Wall</button>
+		<button id="fight">Fight</button>
+		<button id="takeGroup">Take Group</button>
+        <input type="text" id="username" name="username" placeholder="username">
+		<input type="email" id="email" name="email" placeholder="email">
+        <input type="text" id="password" name="password" placeholder="password">
+        <button id="login">Login</button>
+        <button id="createGroup">Create Group</button>
+        <input type="text" id="createGroupName" name="createGroupName" placeholder="Name">
+        <button id="submitCreateGroup">Submit</button>
+        <button id="editGroup">Edit Group</button>
+        <input type = "text" id="editGroupName" name="editGroupName" placeholder="Name of Group">
+        <input type = "text" id="editGroupAddAdmin" name="editGroupAddAdmin" placeholder="Add Admin">
+        <input type = "text" id="editGroupAddMod" name="editGroupAddMod" placeholder="Add Mod">
+        <input type = "text" id="editGroupAddMember" name="editGroupAddMember" placeholder="Add Member">
+        <input type = "text" id="editGroupRemoveAdmin" name="editGroupRemoveAdmin" placeholder="Remove Admin">
+        <input type = "text" id="editGroupRemoveMod" name="editGroupRemoveMod" placeholder="Remove Mod">
+        <input type = "text" id="editGroupRemoveMember" name="editGroupRemoveMember" placeholder="Remove Member">
+        <button id="editGroupSubmit">Submit</button>
+        <input type = "text" id="currentGroup" name="currentGroup" placeholder="Current Group">
+
+        <button id="placeDoor">Place Door</button>
+
+        <p><span id="chosenPlayer">Player: </span><span id = chosenPlayerWood> </span><span id = chosenPlayerX> </span><span id = chosenPlayerY> </span><span id = chosenPlayerHealth> </span>
+
+        <button id="attack">Attack</button>
+        <button id="follow">Follow</button>
+
+        <button id="peace">Stop Attacking</button>
+
+        <button id="craftingMenu">Crafting Menu</button>
+        <button id="woodenSpear">Wooden Spear -5 Wood</button>
+        <button id="woodenAxe">Wooden Axe -5 Wood</button>
+        <button id="woodenPickaxe">Wooden Pickaxe -5 Wood</button>
+
+
+
+
+
+        <button id="saveAllChunks">Save Chunks</button>
+        <button id="saveAllGroups">Save Groups</button>
+
+
+	</p>
+
+	<img src="assets/tree.png" id="treeAsset" hidden>
+	<img src="assets/groupHub.png" id="groupHubAsset" hidden>
+	<img src="assets/wall.png" id="wallAsset" hidden>
+
+
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<!-- <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script> -->
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+	     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+	<!-- <script> -->
+	 <!--  // Your web app's Firebase configuration
+	  var firebaseConfig = {
+	    apiKey: "AIzaSyDXT8SICNY2eBVrudpZnNIbQ-QW9KnsqL4",
+	    authDomain: "gridgame-e1ba0.firebaseapp.com",
+	    databaseURL: "https://gridgame-e1ba0.firebaseio.com",
+	    projectId: "gridgame-e1ba0",
+	    storageBucket: "gridgame-e1ba0.appspot.com",
+	    messagingSenderId: "165516972791",
+	    appId: "1:165516972791:web:b1ee0405c759f69871f9f2"
+	  };
+	  // Initialize Firebase
+	  firebase.initializeApp(firebaseConfig); -->
+	<!-- </script> -->
+
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="javascript/home.js"></script>
+
+
+
+
+	</body> 
+	</html>

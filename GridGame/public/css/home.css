@@ -1,0 +1,440 @@
+* { padding: 0; margin: 0; }
+canvas { background: #eee; display: block; margin: 0 auto; }
+
+#body{
+	margin:0;
+}
+
+#chop {
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px;  
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#wall {
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px;  
+	left: 0px; 
+	top: 0px;
+	display: none;}
+
+#fight {
+	display:none;
+}
+
+#createGroupName {
+	display:none;
+}
+
+#submitCreateGroup {
+	display:none;
+}
+#editGroupName {
+	display:none;
+}
+
+#editGroupAddAdmin {
+	display:none;
+}
+
+#editGroupAddMod {
+	display:none;
+}
+
+#editGroupAddMember {
+	display:none;
+}
+
+#editGroupRemoveAdmin {
+	display:none;
+}
+
+#editGroupRemoveMod {
+	display:none;
+}
+
+#editGroupRemoveMember {
+	display:none;
+}
+
+
+
+#editGroupSubmit {
+	display:none;
+}
+
+#takeGroup {
+position: absolute; 
+	padding: 0px; 
+	margin: 0px;  
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#attack {
+	display:none;
+}
+
+#woodenSpear {
+	display:none;
+}
+
+#woodenAxe {
+	display:none;
+}
+
+#woodenPickaxe {
+	display:none;
+}
+
+#login{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+}
+
+#email{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+}
+
+#username{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+}
+
+#password{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+}
+
+#gridValue{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: inline;
+}
+
+#takeGroup{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#createGroup{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#createGroupName{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#submitCreateGroup{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#editGroup{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#editGroupName{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#editGroupAddAdmin{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#editGroupAddMod{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#editGroupAddMember{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#editGroupRemoveAdmin{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#editGroupRemoveMod{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#editGroupRemoveMember{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#editGroupSubmit{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#currentGroup{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#placeDoor{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#attack{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#follow{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#peace{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#craftingMenu{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#woodenSpear{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#woodenAxe{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#woodenPickaxe{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#saveAllChunks{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#saveAllGroups{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#chosenPlayer{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#chosenPlayerWood{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#chosenPlayerX{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#chosenPlayerY{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
+#cords{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: inline;
+}
+
+#woodAmount{
+	position: absolute; 
+	padding: 0px; 
+	margin: 0px; 
+	display: block; 
+	left: 0px; 
+	top: 0px;
+	display: none;
+}
+
