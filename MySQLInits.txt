@@ -1,0 +1,35 @@
+CREATE TABLE chunks(
+    chunkX int,
+    chunkY int,
+    gridX int,
+    gridY int
+);
+
+CREATE TABLE permissions(
+    id int auto_increment key,
+    objectKey varchar(255),
+    perms varchar(255)
+);
+
+CREATE TABLE accounts(
+    id int auto_increment key,
+    password varchar(255),
+    email varchar(255),
+    username varchar(255)
+);
+
+INSERT INTO accounts
+VALUES (DEFAULT, 'G', 'G@gmail.com', 'G')
+
+
+CREATE TABLE players(
+    id int auto_increment key,
+    username varchar(255),
+    role varchar(255),
+    wood int,
+    x int,
+    y int
+);
+
+INSERT INTO players
+VALUES (DEFAULT, 'G', 'admin', 0, 0, 0)
